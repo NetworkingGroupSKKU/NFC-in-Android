@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">MI NFC</string>
+    <string name="nfc_off">Turn on NFC function</string>
+    <string name="ask_for_rate">Rate this App!</string>
+    <string name="write_tag">Write to tag</string>
+    <string name="wifi_strigger">Wifi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="airplane">Airplane Mode</string>
+    <string name="silent">Silent mode</string>
+    <string name="alarm">Alarm</string>
+    <string name="alarm_time">Set Alarm Time</string>
+    <string name="run_app">Running Apps</string>
+    <string name="app_pakage_name">Select Apps </string>
+    <string name="wifi"> </string>
+    <string name="sum_bluetooth"> </string>
+    <string name="sum_airplane"> </string>
+    <string name="ringer"> </string>
+    <string name="pref_alarm"> </string>
+    <string name="pref_alarm_time"> </string>
+    <string name="pref_run_app"> </string>
+    <string name="pref_app_pakage_name"> </string>
+    <string name="alarm_title">NFC alarm</string>
+    <string name="notification">Loaded Settings</string>
+    <string name="nfc_writer_waiting">NFC tag?</string>
+    <string name="nfc_writer_success">Written success</string>
+    <string name="nfc_writer_error">Failed.</string>
+    <string name="fb">Feedback</string>
+    <string name="fb_mail">nvp2803@gmail.com</string>
+    <string name="turn_on_nfc">You have to turn on NFC function to use the app</string>
+    <string name="rate"> </string>
+
+   <string name="dialog_icon">Dialog Button</string>
+    <string name="shared_pref_name"></string>
+    <string name="count_tags">WrittenCount</string>    
+       
+        
+    <string name="main_title">NFC Tool</string>
+    <string name="continue_label">Writing Text</string>
+    <string name="new_game_label">Configuring Mobile phone</string>
+    <string name="about_label">About</string>
+    <string name="exit_label">Exit</string>
+    <string name="about_title">About NFC Tool app</string>
+    <string name="about_text">This application has been developed by Networking laboratory, Sungkyunkwan University, Suwon, South Korea</string>
+    <string name="settings_label">Settings </string>
+    <string name="settings_title">NFC Tool Settings</string>
+    <string name="write_tag_label">Write</string>
+    <string name="write_tag_title">Write to tag</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="silent_title">Silent mode</string>
+    <string name="silent_summary">Change the phone to silent mode or normal</string>
+    <string name="wifi_title">Wifi</string>
+    <string name="wifi_summary">Turn on/off wifi</string>
+    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_summary">Turn on/off bluetooth</string>
+    <string name="airplane_title">Airplane mode</string>
+    <string name="airplane_summary">Turn on Airplane mode</string>
+    <string name="running_apps_title">Running Apps</string>
+    <string name="running_apps">Running selected apps</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="info">Info</string>
+    <string name="info_text">&lt;strong>NFC Profile&lt;br/>
+        </string>
+   
+</resources>

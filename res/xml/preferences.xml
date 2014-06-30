@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="airplane_mode_preference"
+        android:layout="@layout/items"
+        android:selectable="true"
+        android:summary="@string/sum_airplane"
+        android:title="@string/airplane"
+        android:widgetLayout="@layout/checkbox" />
+
+    <CheckBoxPreference
+        android:key="wifi_preference"
+        android:layout="@layout/items"
+        android:selectable="true"
+        android:summary="@string/wifi"
+        android:title="@string/wifi_strigger"
+        android:widgetLayout="@layout/checkbox" />
+
+    <CheckBoxPreference
+        android:key="bluetooth_preference"
+        android:layout="@layout/items"
+        android:selectable="true"
+        android:summary="@string/sum_bluetooth"
+        android:title="@string/bluetooth"
+        android:widgetLayout="@layout/checkbox" />
+
+    <CheckBoxPreference
+        android:key="ringer_preference"
+        android:layout="@layout/items"
+        android:summary="@string/ringer"
+        android:title="@string/silent"
+        android:widgetLayout="@layout/checkbox" />
+
+    <CheckBoxPreference
+        android:key="alarm_preference"
+        android:layout="@layout/items"
+        android:summary="@string/pref_alarm"
+        android:title="@string/alarm"
+        android:widgetLayout="@layout/checkbox" />
+
+    <com.android.phuc.nfc.TimeManager
+        android:dependency="alarm_preference"
+        android:key="alarm_time_preference"
+        android:layout="@layout/items"
+        android:summary="@string/pref_alarm_time"
+        android:title="@string/alarm_time"
+        android:widgetLayout="@layout/dialog_icon" />
+
+    <CheckBoxPreference
+        android:key="start_external_app_preference"
+        android:layout="@layout/items"
+        android:summary="@string/pref_run_app"
+        android:title="@string/run_app"
+        android:widgetLayout="@layout/checkbox" />
+    
+     <com.android.phuc.nfc.Listing
+         android:key="external_app_package_name"
+        android:dependency="start_external_app_preference"
+        android:layout="@layout/items"
+        android:summary="@string/pref_app_pakage_name"
+        android:title="@string/app_pakage_name"
+        android:widgetLayout="@layout/dialog_icon" />
+
+</PreferenceScreen>
